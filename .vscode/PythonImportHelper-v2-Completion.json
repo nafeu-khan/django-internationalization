@@ -1,0 +1,471 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "example",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "example",
+        "description": "example",
+        "detail": "example",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "example",
+        "description": "example",
+        "isExtraImport": true,
+        "detail": "example",
+        "documentation": {}
+    },
+    {
+        "label": "example.urls",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "example.urls",
+        "description": "example.urls",
+        "detail": "example.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "gettext",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "activate",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Translator",
+        "importPath": "googletrans",
+        "description": "googletrans",
+        "isExtraImport": true,
+        "detail": "googletrans",
+        "documentation": {}
+    },
+    {
+        "label": "polib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "polib",
+        "description": "polib",
+        "detail": "polib",
+        "documentation": {}
+    },
+    {
+        "label": "ExampleConfig",
+        "kind": 6,
+        "importPath": "example.apps",
+        "description": "example.apps",
+        "peekOfCode": "class ExampleConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'example'",
+        "detail": "example.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "example.urls",
+        "description": "example.urls",
+        "peekOfCode": "urlpatterns = [\n    path('',views.test)\n]",
+        "detail": "example.urls",
+        "documentation": {}
+    },
+    {
+        "label": "tes",
+        "kind": 2,
+        "importPath": "example.views",
+        "description": "example.views",
+        "peekOfCode": "def test (req):\n    activate('bn')\n    trans={\n        'hello': _('hello'),\n        'people': _('people')\n    }\n    return render(req,'html/home.html',trans)",
+        "detail": "example.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "gettextproject.asgi",
+        "description": "gettextproject.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "gettextproject.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-xa%@8lxycqr_f2ildnt7-cy!4hy2g&c9kp4u91bmj+hoyvr^ua'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-xa%@8lxycqr_f2ildnt7-cy!4hy2g&c9kp4u91bmj+hoyvr^ua'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rosetta',",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rosetta',\n    'example',\n]",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n     'django.middleware.locale.LocaleMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "ROOT_URLCONF = 'gettextproject.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'gettextproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# internationalization/localization",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# internationalization/localization\nimport os ",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# internationalization/localization\nimport os \nLANGUAGE_CODE = 'en-us'",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# internationalization/localization\nimport os \nLANGUAGE_CODE = 'en-us'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# internationalization/localization\nimport os \nLANGUAGE_CODE = 'en-us'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nLANGUAGES = [\n    ('en', 'English'),\n    ('es', 'Spanish'),",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nLANGUAGES = [\n    ('en', 'English'),\n    ('es', 'Spanish'),\n    ('bn','Bangla')\n    # Add other languages here\n]",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nLANGUAGES = [\n    ('en', 'English'),\n    ('es', 'Spanish'),\n    ('bn','Bangla')\n    # Add other languages here\n]\nLOCALE_PATHS = [",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\nLANGUAGES = [\n    ('en', 'English'),\n    ('es', 'Spanish'),\n    ('bn','Bangla')\n    # Add other languages here\n]\nLOCALE_PATHS = [\n    os.path.join(BASE_DIR, 'locale'),",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "USE_TZ = True\nLANGUAGES = [\n    ('en', 'English'),\n    ('es', 'Spanish'),\n    ('bn','Bangla')\n    # Add other languages here\n]\nLOCALE_PATHS = [\n    os.path.join(BASE_DIR, 'locale'),\n]",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGES",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "LANGUAGES = [\n    ('en', 'English'),\n    ('es', 'Spanish'),\n    ('bn','Bangla')\n    # Add other languages here\n]\nLOCALE_PATHS = [\n    os.path.join(BASE_DIR, 'locale'),\n]",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOCALE_PATHS",
+        "kind": 5,
+        "importPath": "gettextproject.settings",
+        "description": "gettextproject.settings",
+        "peekOfCode": "LOCALE_PATHS = [\n    os.path.join(BASE_DIR, 'locale'),\n]",
+        "detail": "gettextproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "gettextproject.urls",
+        "description": "gettextproject.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n     path('rosetta/', include('rosetta.urls')),\n    path('',include(example.urls)),\n]",
+        "detail": "gettextproject.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "gettextproject.wsgi",
+        "description": "gettextproject.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "gettextproject.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gettextproject.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "translate_text",
+        "kind": 2,
+        "importPath": "translate_po_files",
+        "description": "translate_po_files",
+        "peekOfCode": "def translate_text(text, target_language):\n    translator = Translator()\n    translated = translator.translate(text, dest=target_language)\n    return translated.text\n# Function to translate a .po file\ndef translate_po_file(po_file_path, target_language):\n    po = polib.pofile(po_file_path)\n    for entry in po.untranslated_entries():\n        if entry.msgid:  # Ensure the msgid is not empty\n            translation = translate_text(entry.msgid, target_language)",
+        "detail": "translate_po_files",
+        "documentation": {}
+    },
+    {
+        "label": "translate_po_file",
+        "kind": 2,
+        "importPath": "translate_po_files",
+        "description": "translate_po_files",
+        "peekOfCode": "def translate_po_file(po_file_path, target_language):\n    po = polib.pofile(po_file_path)\n    for entry in po.untranslated_entries():\n        if entry.msgid:  # Ensure the msgid is not empty\n            translation = translate_text(entry.msgid, target_language)\n            entry.msgstr = translation\n    po.save()\nif __name__ == \"__main__\":\n    # Specify the locale directory and target language\n    locale_dir = \"locale/bn\" #specify target po files folder . for exmple for bangla locale/bn after \"makemessages -l bn\"",
+        "detail": "translate_po_files",
+        "documentation": {}
+    }
+]
