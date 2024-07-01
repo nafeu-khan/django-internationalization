@@ -1,0 +1,9 @@
+{% load i18n %}
+
+<body>
+    {{hello}}
+    <p>{% trans "Welcome to my site." %}</p>
+
+{% blocktrans %}This is a longer string that might need translation.{% endblocktrans %}
+
+</body>
