@@ -29,14 +29,22 @@ def translate_po_file(po_file_path, target_language):
     po = polib.pofile(po_file_path)
     for entry in po.untranslated_entries():
         if entry.msgid:  # Ensure the msgid is not empty
-            translation = translate_text(entry.msgid, target_language)
-            entry.msgstr = translation
+            try:
+                translation = translate_text(entry.msgid, target_language)
+                entry.msgstr = translation
+            except Exception as e:
+                print(f"Error translating '{entry.msgid}': {e}")
     po.save()
 
 if __name__ == "__main__":
+    #-----------need to change-------------
+    language='fr'
+    locale_language_dir= 'fr'
+    #------------end------------------
+
     # Specify the locale directory and target language
-    locale_dir = "locale/bn" #specify target po files folder . for exmple for bangla locale/bn after "makemessages -l bn"
-    target_language = "bn"  # Adjust target language as necessary
+    locale_dir = f"locale/{locale_language_dir}" #specify target po files folder . for exmple for bangla locale/bn after "makemessages -l bn"
+    target_language = language  # Adjust target language as necessary
     
     # Translate all .po files in the locale directory
     for root, dirs, files in os.walk(locale_dir):
@@ -46,3 +54,40 @@ if __name__ == "__main__":
                 print(f"Translating {po_file_path}")
                 translate_po_file(po_file_path, target_language)
                 print(f"Translation complete for {po_file_path}")
+
+
+# import os
+# from googletrans import Translator
+# import polib
+
+# # Function to translate text using Google Translate
+# def translate_text(text, target_language):
+#     translator = Translator()
+#     translated = translator.translate(text, dest=target_language)
+#     return translated.text
+
+# # Function to translate a .po file
+# def translate_po_file(po_file_path, target_language):
+#     po = polib.pofile(po_file_path)
+#     for entry in po.untranslated_entries():
+#         if entry.msgid:  # Ensure the msgid is not empty
+#             try:
+#                 translation = translate_text(entry.msgid, target_language)
+#                 entry.msgstr = translation
+#             except Exception as e:
+#                 print(f"Error translating '{entry.msgid}': {e}")
+#     po.save()
+
+# if __name__ == "__main__":
+#     # Specify the locale directory and target language
+#     locale_dir = "locale/fr" # specify target po files folder, for example, for Bangla locale/bn after "makemessages -l bn"
+#     target_language = "fr"  # Adjust target language as necessary
+    
+#     # Translate all .po files in the locale directory
+#     for root, dirs, files in os.walk(locale_dir):
+#         for file in files:
+#             if file.endswith(".po"):
+#                 po_file_path = os.path.join(root, file)
+#                 print(f"Translating {po_file_path}")
+#                 translate_po_file(po_file_path, target_language)
+#                 print(f"Translation complete for {po_file_path}")
